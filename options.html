@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="spectre.min.css">
+    <script defer src="option.js"> </script>
+    <style>
+      .btn:hover {
+        background-color: aqua;
+      }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card-image">
+        </div>
+        <div class="card-header">
+            <div class="toast toast-error d-hide">
+                <button class="btn btn-clear float-right"></button>
+                Please enter valid API.
+              </div>
+          <div class="card-subtitle text-gray">Enter API Key</div>
+        </div>
+        <div class="card-body">
+          <!-- form input control -->
+        <div class="form-group">
+            <input class="form-input" type="password" id="myAPI">
+        </div>
+        </div>
+        <div class="card-footer">
+          <button class="btn" id="shorturl">Save</button>
+          <div class="toast toast-success d-hide"> Saved!
+        </div>
+      </div>
+</body>
+</html>
